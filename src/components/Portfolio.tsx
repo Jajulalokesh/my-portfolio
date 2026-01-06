@@ -66,15 +66,15 @@ const Portfolio = () => {
       name: "POCKET SHOP TECH",
       description: "A modern e-commerce platform for pocket-sized tech gadgets with intuitive shopping experience and responsive design.",
       tech: ["HTML", "CSS", "Python"],
-      liveUrl: "/pocket-shop",
-      githubUrl: "#"
+      liveUrl: "https://pocket-shop-czcv.onrender.com/",
+      githubUrl: "https://github.com/Jajulalokesh/pocket-shop"
     },
     {
       name: "Phishing Email Analyzer",
       description: "A cybersecurity-focused web application that analyzes email headers, URLs, and content to detect phishing attempts.",
       tech: ["HTML", "CSS", "JavaScript"],
-      liveUrl: "#",
-      githubUrl: "#"
+      liveUrl: "https://jajulalokesh.github.io/phishiing-email-analyzer/",
+      githubUrl: "https://github.com/Jajulalokesh/phishiing-email-analyzer"
     }
   ];
 
@@ -110,7 +110,7 @@ const Portfolio = () => {
             ))}
           </div>
 
-          <Button className="btn-primary text-primary-foreground font-medium" onClick={() => window.open('#', '_blank')}>
+          <Button className="btn-primary text-primary-foreground font-medium" onClick={() => window.open('/resume.pdf','_blank')}>
             <Download className="w-4 h-4 mr-2" />
             Resume
           </Button>
@@ -141,7 +141,7 @@ const Portfolio = () => {
               <Button className="btn-primary text-primary-foreground font-medium text-lg px-8 py-3" onClick={() => scrollToSection('projects')}>
                 <Code className="w-5 h-5 mr-2" /> View Projects
               </Button>
-              <Button className="btn-secondary text-secondary-foreground font-medium text-lg px-8 py-3" onClick={() => window.open('#', '_blank')}>
+              <Button className="btn-secondary text-secondary-foreground font-medium text-lg px-8 py-3" onClick={() => window.open('/resume.pdf','_blank')}>
                 <Download className="w-5 h-5 mr-2" /> Download Resume
               </Button>
             </div>
@@ -384,7 +384,7 @@ const Portfolio = () => {
                   </div>
                   <div className="flex items-center">
                     <MapPin className="w-5 h-5 mr-4 text-secondary" />
-                    <span>Based in India</span>
+                    <span> Located in Hyderabad</span>
                   </div>
                 </div>
                 
@@ -407,7 +407,7 @@ const Portfolio = () => {
                 <p className="text-muted-foreground mb-6">
                   Get a detailed overview of my experience, skills, and achievements.
                 </p>
-                <Button className="btn-secondary text-secondary-foreground font-medium w-full" onClick={() => window.open('#', '_blank')}>
+                <Button className="btn-secondary text-secondary-foreground font-medium w-full" onClick={() => window.open('/resume.pdf','_blank')}>
                   <Download className="w-4 h-4 mr-2" /> Download PDF Resume
                 </Button>
               </Card>
